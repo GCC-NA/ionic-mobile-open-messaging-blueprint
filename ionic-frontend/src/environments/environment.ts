@@ -4,21 +4,21 @@
 
 export const environment = {
   production: false,
-  transcriptAPIBaseURL: 'https://eybjxm1imb.execute-api.us-east-1.amazonaws.com/Test/transcript/integration/',
-  notificationAPIBaseURL: 'https://eybjxm1imb.execute-api.us-east-1.amazonaws.com/Test/notification/integration/',
+  transcriptAPIBaseURL: 'https://aydgc1zhwb.execute-api.us-east-1.amazonaws.com/Demo/transcript/integration/',
+  notificationAPIBaseURL: 'https://aydgc1zhwb.execute-api.us-east-1.amazonaws.com/Demo/notification/integration/',
   integrations: [
     {
-      id: 'd2e5aacb-47b5-4b8d-9c8f-21b9e8f4de22',
+      id: 'f82005da-dbe8-4868-8cd2-682f7b5b8210',
       type: 'chat'
     },
     {
-      id: 'd2e5aacb-47b5-4b8d-9c8f-21b9e8f4de22',
+      id: 'f82005da-dbe8-4868-8cd2-682f7b5b8210',
       type: 'offers'
     },
   ],
-  userId: 'juaquim.demo@genesys.com',
-  firstName: 'Juaquim',
-  lastName: 'Demo',
+  userId: 'john.walker@genesys.com',
+  firstName: 'John',
+  lastName: 'Walker',
   chatBranding: {
     faImageClass: 'fa fa-comments fa-3x',
     iconLabel: 'Connect'
@@ -31,18 +31,17 @@ export const environment = {
     faImageClass: 'fa fa-home fa-3x',
     iconLabel: 'Shop'
   },
-  headerIconUrl: '../assets/icon/WalkMeIcon-BW.png',
-  homePageTitle: 'Walk Me! Dog and Cat Walking Services',
-  homePageSubTitle: 'Shop > Walkers > Dog',
+  headerIconUrl: '../assets/icon/Logo_NIKE.svg',
+  homePageTitle: 'Just Do It.',
+  homePageSubTitle: 'Shop > Shoes > Air Jordan',
   homePageDetails: [
-    '30 minutes of pet walking',
-    'Helps pet anxiety',
-    'Exercises pet',
-    'In home services available for that rainy day',
-    'Emergency and after hours walking based on staff availability'
+    'The Air Jordan 11 is one of the Jordan Brand\'s most memorable releases. This retro takes inspiration from the ' +
+    'original that MJ wore en route to his 4th championship ring. It uses premium materials and full-length Nike Air cushioning.',
+    'Shown: Medium Grey/Multi-Color/Multi-Color',
+    'Style: CT8012-005'
   ],
-  homePageProductImageUrl: '../assets/icon/WalkMeIcon-Color.png',
-  homePageProductLink: 'https://www.genesys.com/'
+  homePageProductImageUrl: '../assets/icon/air-jordan.jpeg',
+  homePageProductLink: 'https://www.nike.com/w/jordan-shoes-37eefzy7ok'
 };
 
 /*
