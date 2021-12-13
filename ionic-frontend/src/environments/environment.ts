@@ -16,12 +16,12 @@ export const environment = {
       type: 'offers'
     },
   ],
-  userId: 'john.walker@genesys.com',
-  firstName: 'John',
-  lastName: 'Walker',
+  userId: 'davinogustini@gmail.com',
+  firstName: 'Davino',
+  lastName: 'Gustini',
   chatBranding: {
     faImageClass: 'fa fa-comments fa-3x',
-    iconLabel: 'Connect'
+    iconLabel: 'Athlete Connect'
   },
   notificationBranding: {
     faImageClass: 'fa fa-bell fa-3x',
