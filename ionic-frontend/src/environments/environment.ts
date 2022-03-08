@@ -16,9 +16,9 @@ export const environment = {
       type: 'offers'
     },
   ],
-  userId: 'juaquim.demo@genesys.com',
-  firstName: 'Juaquim',
-  lastName: 'Demo',
+  userId: 'john.customer@gmail-mercury.com',
+  firstName: 'John',
+  lastName: 'Customer',
   chatBranding: {
     faImageClass: 'fa fa-comments fa-3x',
     iconLabel: 'Connect'
@@ -29,20 +29,21 @@ export const environment = {
   },
   homeBranding: {
     faImageClass: 'fa fa-home fa-3x',
-    iconLabel: 'Shop'
+    iconLabel: 'Home'
   },
-  headerIconUrl: '../assets/icon/WalkMeIcon-BW.png',
-  homePageTitle: 'Walk Me! Dog and Cat Walking Services',
-  homePageSubTitle: 'Shop > Walkers > Dog',
+  headerIconUrl: '../assets/icon/MercuryInsuranceLogo.png',
+  homePageTitle: 'Mercury Insurance',
+  homePageSubTitle: 'Products > Insurance > Auto',
   homePageDetails: [
-    '30 minutes of pet walking',
-    'Helps pet anxiety',
-    'Exercises pet',
-    'In home services available for that rainy day',
-    'Emergency and after hours walking based on staff availability'
+    'Save hundreds by switching to Mercury Insurance!',
+    'Don\'t sacrifice service, coverage, or price!',
+    'Trusted by millions since 1962',
+    'Easy Claims Process',
+    'Convenient Customer Portal',
+    'Guaranteed Repairs'
   ],
-  homePageProductImageUrl: '../assets/icon/WalkMeIcon-Color.png',
-  homePageProductLink: 'https://www.genesys.com/'
+  homePageProductImageUrl: 'https://www.mercuryinsurance.com/assets/images/mi-logo-web.svg',
+  homePageProductLink: 'https://www.mercuryinsurance.com/insurance/auto/'
 };
 
 /*

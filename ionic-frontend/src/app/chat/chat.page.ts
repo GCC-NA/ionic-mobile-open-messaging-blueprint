@@ -48,6 +48,7 @@ export class ChatPage {
     if (this.accountSettings.getUserId()) {
       this.messageService.getTranscript(this.accountSettings.getUserId()).subscribe(
         value => {
+            value.messages = value.messages.filter(message => message.type.toLowerCase() !== 'receipt');
             value.messages = value.messages.sort((a, b) => a.channelTime < b.channelTime ? -1 : a.channelTime > b.channelTime ? 1 : 0);
             if(value.messages.length > this.transcript.messages.length){
               //don't load the object and scroll unless we need to.
