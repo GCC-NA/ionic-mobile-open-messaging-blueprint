@@ -4,21 +4,21 @@
 
 export const environment = {
   production: false,
-  transcriptAPIBaseURL: 'https://eybjxm1imb.execute-api.us-east-1.amazonaws.com/Test/transcript/integration/',
-  notificationAPIBaseURL: 'https://eybjxm1imb.execute-api.us-east-1.amazonaws.com/Test/notification/integration/',
+  transcriptAPIBaseURL: 'https://aydgc1zhwb.execute-api.us-east-1.amazonaws.com/Demo/transcript/integration/',
+  notificationAPIBaseURL: 'https://aydgc1zhwb.execute-api.us-east-1.amazonaws.com/Demo/notification/integration/',
   integrations: [
     {
-      id: 'd2e5aacb-47b5-4b8d-9c8f-21b9e8f4de22',
+      id: 'f82005da-dbe8-4868-8cd2-682f7b5b8210',
       type: 'chat'
     },
     {
-      id: 'd2e5aacb-47b5-4b8d-9c8f-21b9e8f4de22',
+      id: 'f82005da-dbe8-4868-8cd2-682f7b5b8210',
       type: 'offers'
     },
   ],
-  userId: 'john.customer@gmail-mercury.com',
-  firstName: 'John',
-  lastName: 'Customer',
+  userId: 'davinogustini@gmail.com',
+  firstName: 'Davino',
+  lastName: 'Gustini',
   chatBranding: {
     faImageClass: 'fa fa-comments fa-3x',
     iconLabel: 'Connect'
