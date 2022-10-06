@@ -4,45 +4,43 @@
 
 export const environment = {
   production: false,
-  transcriptAPIBaseURL: 'https://eybjxm1imb.execute-api.us-east-1.amazonaws.com/Test/transcript/integration/',
-  notificationAPIBaseURL: 'https://eybjxm1imb.execute-api.us-east-1.amazonaws.com/Test/notification/integration/',
+  transcriptAPIBaseURL: 'https://aydgc1zhwb.execute-api.us-east-1.amazonaws.com/Demo/transcript/integration/',
+  notificationAPIBaseURL: 'https://aydgc1zhwb.execute-api.us-east-1.amazonaws.com/Demo/notification/integration/',
   integrations: [
     {
-      id: 'd2e5aacb-47b5-4b8d-9c8f-21b9e8f4de22',
+      id: 'f82005da-dbe8-4868-8cd2-682f7b5b8210',
       type: 'chat'
     },
     {
-      id: 'd2e5aacb-47b5-4b8d-9c8f-21b9e8f4de22',
+      id: 'f82005da-dbe8-4868-8cd2-682f7b5b8210',
       type: 'offers'
     },
   ],
-  userId: 'juaquim.demo@genesys.com',
-  firstName: 'Juaquim',
-  lastName: 'Demo',
+  userId: 'davinogustini@gmail.com',
+  firstName: 'Davino',
+  lastName: 'Gustini',
   chatBranding: {
     faImageClass: 'fa fa-comments fa-3x',
-    iconLabel: 'Connect'
+    iconLabel: 'Chat'
   },
   notificationBranding: {
     faImageClass: 'fa fa-bell fa-3x',
-    iconLabel: 'Offers'
+    iconLabel: 'Sale'
   },
   homeBranding: {
     faImageClass: 'fa fa-home fa-3x',
     iconLabel: 'Shop'
   },
-  headerIconUrl: '../assets/icon/WalkMeIcon-BW.png',
-  homePageTitle: 'Walk Me! Dog and Cat Walking Services',
-  homePageSubTitle: 'Shop > Walkers > Dog',
+  headerIconUrl: '../assets/icon/wayfairlogo.png',
+  homePageTitle: 'Sofas.',
+  homePageSubTitle: 'Shop > Living Room Furniture ',
   homePageDetails: [
-    '30 minutes of pet walking',
-    'Helps pet anxiety',
-    'Exercises pet',
-    'In home services available for that rainy day',
-    'Emergency and after hours walking based on staff availability'
+    'Audriana 78" Recessed Arm Modular Sofa',
+    'By Andover Mills',
+    'from $335.99 with Free Shipping'
   ],
-  homePageProductImageUrl: '../assets/icon/WalkMeIcon-Color.png',
-  homePageProductLink: 'https://www.genesys.com/'
+  homePageProductImageUrl: '../assets/icon/Sofa.webp',
+  homePageProductLink: 'https://www.wayfair.com/'
 };
 
 /*
